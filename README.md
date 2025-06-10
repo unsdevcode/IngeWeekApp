@@ -38,3 +38,7 @@ Unit tests and instrumentation tests can be executed with Gradle:
 ./gradlew connectedAndroidTest  # run instrumentation tests on a device/emulator
 ```
 
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
