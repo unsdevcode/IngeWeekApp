@@ -1,44 +1,50 @@
 # IngeWeekApp
 
-IngeWeekApp is a sample Android application that displays a list of scheduled events for **IngeWeek**. The main screen hosts a `RecyclerView` listing the day, time, location, topic and speaker of each event. The app also includes a switch in the main activity to toggle between light and dark modes using `AppCompatDelegate`.
+IngeWeekApp es una aplicación Android de ejemplo que muestra una lista de eventos programados para **IngeWeek**. La pantalla principal contiene un `RecyclerView` que lista el día, hora, lugar, tema y disertante de cada evento. La aplicación también incluye un interruptor en la actividad principal para alternar entre los modos claro y oscuro mediante `AppCompatDelegate`.
 
-## Build
+## Compilación
 
-This project uses [Gradle](https://gradle.org/) with Kotlin DSL. You can build it either from the command line or with Android Studio.
+Este proyecto utiliza [Gradle](https://gradle.org/) con Kotlin DSL. Puede compilarlo desde la línea de comandos o con Android Studio.
 
-### Command line
+### Línea de comandos
 
-1. Ensure you have the appropriate Android SDKs installed.
-2. From the project root run:
+1. Asegúrese de tener instalados los SDK de Android apropiados.
+2. Desde la raíz del proyecto ejecute:
 
 ```bash
 ./gradlew assembleDebug
 ```
 
-This will produce a debug APK under `app/build/outputs/apk/`.
+Esto generará un APK de depuración en `app/build/outputs/apk/`.
 
 ### Android Studio
 
-1. Open Android Studio and choose **Open** existing project.
-2. Select the `IngeWeekApp` directory.
-3. Press **Run** to build and deploy to a connected device or emulator.
+1. Abra Android Studio y elija **Open** proyecto existente.
+2. Seleccione el directorio `IngeWeekApp`.
+3. Presione **Run** para compilar y desplegar en un dispositivo o emulador conectado.
 
-## SDK versions
+## Versiones de SDK
 
 - **Compile SDK:** 35
 - **Target SDK:** 35
 - **Minimum SDK:** 21
 
-## Testing
+## Pruebas
 
-Unit tests and instrumentation tests can be executed with Gradle:
+Las pruebas unitarias e instrumentadas se pueden ejecutar con Gradle:
 
 ```bash
-./gradlew test            # run unit tests
-./gradlew connectedAndroidTest  # run instrumentation tests on a device/emulator
+./gradlew test            # ejecuta pruebas unitarias
+./gradlew connectedAndroidTest  # ejecuta pruebas instrumentadas en un dispositivo/emulador
 ```
 
+## Capturas de pantalla
 
-## License
+- Pantalla principal  
+  ![Pantalla principal](https://i.imgur.com/rn5IG6M.png)
+- Vista de eventos programados  
+  ![Vista de eventos programados](https://i.imgur.com/EZzBcra.png)
 
-This project is licensed under the [MIT License](LICENSE).
+## Licencia
+
+Este proyecto se encuentra bajo la [Licencia MIT](LICENSE).
